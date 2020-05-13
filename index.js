@@ -43,9 +43,5 @@ function makeInt(n) {
 }
 
 function preserveDecimal(n) {
-  if (parseFloat(n)){
-   return n
-  }
-  else 
-    return NaN
+  return parseFloat(n)
 }
