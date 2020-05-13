@@ -39,7 +39,7 @@ return  n -= 1
 }
 
 function makeInt(n) {
-  parseInt(n,10) return n
+  parseInt(n,10)  n
 }
 
 function preserveDecimal(n) {
