@@ -38,15 +38,9 @@ function decrement(n) {
 return  n -= 1
 }
 
-function makeInt(n,radix) {
-  if (parseInt(n)) {
+function makeInt(n) {
+  parseInt(n)
      return n
-  }
-  else if (parseInt(n,radix=== 0)){
-     return n === 0
-  }
-  else (n ='sldkjflksjf')
-     return NaN
 }
 
 function preserveDecimal(n) {
